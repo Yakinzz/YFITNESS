@@ -1,0 +1,85 @@
+/* Importación de fuentes de google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #b17cf2;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #b17cf2;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #9D4BFF;
+}
+
+
+.boton:hover,
+.botonAdmin:hover{
+    background-color: #b17cf2;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #9D4BFF;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.botonAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 180px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #9D4BFF;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+

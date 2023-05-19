@@ -1,0 +1,130 @@
+/* Importación de fuentes de google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+body{
+  height: 100%; 
+  background-color: #9D4BFF;
+}
+
+
+.contact_form{  
+  width: 460px; 
+  
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #9D4BFF;
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #9D4BFF;
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #9D4BFF;
+  border-color: #9D4BFF;
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #9D4BFF;
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 30px;  
+  text-align: center; 
+  
+  color: #9D4BFF;
+}
+
+
+
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #8d55e0;
+ font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #8d55e0;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 2px solid #2cc1ee;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 2px solid #2cc1ee;
+}
+
+
+/* creado por javiniguez.com, Julio 2019 */
